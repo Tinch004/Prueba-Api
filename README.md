@@ -13,7 +13,7 @@ Sigue estos pasos para levantar el proyecto en tu entorno local.
 Abre tu terminal y ejecuta el siguiente comando para clonar este repositorio:
 
 ```bash
-git clone [https://github.com/Tinch004/Prueba-Api.git](https://github.com/Tinch004/Prueba-Api.git)
+git clone https://github.com/Tinch004/Prueba-Api.git
 cd Prueba-Api
 ```
 2. Instalación de Dependencias
