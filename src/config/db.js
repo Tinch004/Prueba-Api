@@ -4,9 +4,9 @@ const { Sequelize } = require("sequelize");
 const fs = require("fs");
 const path = require("path");
 const { SERIALIZABLE } = require("sequelize/lib/table-hints");
-const { DB_USER, DB_PASSWORD, DB_HOST, DB_DEPLOY } = process.env;
+const { DB_USER, DB_PASSWORD, DB_HOST, DB_DEPLOY, DB_PORT } = process.env;
 
-const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@localhost:${DB_HOST}/${DB_DEPLOY}`, {
+const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_DEPLOY}`, {
   logging: false,
   native: false,
   dialectOptions: {

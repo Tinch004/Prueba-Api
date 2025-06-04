@@ -46,7 +46,7 @@ El servidor debería estar corriendo en el puerto 3001.
 Documentación de la API
 La documentación de la API está disponible en la siguiente ruta una vez que el servidor esté en funcionamiento:
 
-http://localhost:3001/api-doc
+http://localhost:3001/api-docs
 
 Contacto
 Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarme.
